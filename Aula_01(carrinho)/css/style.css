@@ -11,7 +11,7 @@
 
 h1 {
     color: white;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 
 #produtos {
     width: 80vw;
-    height: 80vh;
+    min-height: 80vh;
 
     display: flex;
     flex-direction: column;
@@ -37,6 +37,8 @@ body {
 
     border: 1px solid indianred;
     border-radius: 4px;
+
+    box-shadow: 0px 0px 10px indianred;
 }
 
 #produtos hr {
@@ -92,8 +94,6 @@ button:hover{
 
 .carrinho-titulos, .carrinho-item {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .carrinho-item {
